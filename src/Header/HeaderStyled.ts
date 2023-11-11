@@ -6,6 +6,14 @@ const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
 
+  .logo-container {
+    background: linear-gradient(
+      to right,
+      ${({ theme }) => theme.colors.backGroundHeader}
+    );
+    display: inline-block;
+    width: 100vw;
+  }
   .header-logo {
     object-fit: cover;
     margin-bottom: 20px;
@@ -13,6 +21,7 @@ const HeaderStyled = styled.header`
     height: 100%;
     display: flex;
     align-items: center;
+    padding-top: 20px;
   }
 `;
 
