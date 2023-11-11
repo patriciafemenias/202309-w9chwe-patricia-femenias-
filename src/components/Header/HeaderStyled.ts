@@ -5,6 +5,7 @@ const HeaderStyled = styled.header`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   .logo-container {
     background: linear-gradient(
@@ -13,14 +14,14 @@ const HeaderStyled = styled.header`
     );
     display: inline-block;
     width: 100vw;
+    display: flex;
+    justify-content: center;
   }
   .header-logo {
     object-fit: cover;
     margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+    width: 820px;
+    height: 400px;
     padding-top: 20px;
   }
 `;
