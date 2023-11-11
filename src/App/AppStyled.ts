@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const AppStyled = styled.div`
+const AppStyled = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
