@@ -14,7 +14,7 @@ const MonsterCard = ({
         <img
           className="monster-card__image"
           src={picture}
-          alt={picture}
+          alt={name}
           width="260"
           height="400"
         />
