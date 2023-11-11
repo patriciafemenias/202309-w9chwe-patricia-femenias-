@@ -5,6 +5,7 @@ const mainTheme: DefaultTheme = {
     main: "#000",
     accent: "#ED018A",
     light: "#fff",
+    backGroundHeader: "#e7f962, #62ffab, #ff81d2",
   },
 
   typography: {
