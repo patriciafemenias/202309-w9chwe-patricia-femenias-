@@ -3,7 +3,7 @@ import "@testing-library/jest-dom";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import Header from "./Header";
-import mainTheme from "../styles/mainTheme";
+import mainTheme from "../../styles/mainTheme";
 
 describe("Given a Header component", () => {
   describe("When it is rendered", () => {

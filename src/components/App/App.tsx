@@ -10,6 +10,8 @@ const App = (): React.ReactElement => {
         <Routes>
           <Route path="/" element={<Navigate to="/monsters" />} />
           <Route path="/monsters" />
+          <Route path="/" element={<Navigate to="/create" />} />
+          <Route path="/create" />
         </Routes>
       </main>
     </AppStyled>
