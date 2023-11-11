@@ -30,19 +30,19 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
-   a {
+  a {
     text-decoration: none;
     color: inherit;
   }
   
   input {
-  font: inherit;
+    font: inherit;
 }
 
-button {
-  border: none;
-  background-color: transparent;
-  font: inherit;
+  button {
+   border: none;
+   background-color: transparent;
+   font: inherit;
 }
 `;
 
