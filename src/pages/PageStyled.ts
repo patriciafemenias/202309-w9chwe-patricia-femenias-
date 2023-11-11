@@ -12,6 +12,7 @@ const PageStyled = styled.section`
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin: 30px;
 
     &__container {
       display: flex;

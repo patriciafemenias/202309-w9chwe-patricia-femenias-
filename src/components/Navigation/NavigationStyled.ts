@@ -9,6 +9,7 @@ const NavigationStyled = styled.nav`
     color: #fff;
     text-transform: uppercase;
     padding: 20px;
+    margin: 20px;
   }
 
   .active {
