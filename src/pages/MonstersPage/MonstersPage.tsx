@@ -1,8 +1,14 @@
+import PageStyled from "../PageStyled";
+
 const MonsterPage = (): React.ReactElement => {
   return (
-    <section>
-      <h2 className="title-page">💀Monsters friends and enemies💀</h2>
-    </section>
+    <PageStyled>
+      <div className="title-page__container">
+        <span className="title-page__emoji">💀</span>
+        <h2 className="title-page">Monsters friends and enemies</h2>
+        <span className="title-page__emoji">💀</span>
+      </div>
+    </PageStyled>
   );
 };
 
