@@ -1,6 +1,6 @@
 import { MonsterStructure } from "../../store/features/monsters/types";
 import MonsterCard from "../MonsterCard/MonsterCard";
-import MonstersListStyled from "./MonstersList.test";
+import MonstersListStyled from "./MonstersListStyled";
 
 interface MonstersListProps {
   monsters: MonsterStructure[];
