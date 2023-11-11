@@ -1,17 +1,18 @@
 import { NavLink } from "react-router-dom";
+import NavigationStyled from "./NavigationStyled";
 
 const Navigation = (): React.ReactElement => {
   return (
-    <nav>
+    <NavigationStyled>
       <ul className="navigation">
         <li>
-          <NavLink to="/monsters">home</NavLink>
+          <NavLink to="/monsters">monsters</NavLink>
         </li>
         <li>
           <NavLink to="/create">create</NavLink>
         </li>
       </ul>
-    </nav>
+    </NavigationStyled>
   );
 };
 
