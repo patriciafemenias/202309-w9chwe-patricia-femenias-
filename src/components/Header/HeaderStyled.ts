@@ -20,9 +20,15 @@ const HeaderStyled = styled.header`
   .header-logo {
     object-fit: cover;
     margin-bottom: 20px;
-    width: 820px;
-    height: 400px;
+    width: 360px;
+    height: 220px;
     padding-top: 20px;
+  }
+
+  @media (min-width: 820px) {
+    .header-logo {
+      width: 400px;
+    }
   }
 `;
 
