@@ -6,3 +6,7 @@ export interface MonsterStructure {
   monsterType: string;
   picture: string;
 }
+
+export interface MonstersStateStructure {
+  monsters: MonsterStructure[];
+}
