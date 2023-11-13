@@ -1,4 +1,5 @@
 import { MonsterStructure } from "../../store/features/monsters/types";
+import Button from "../Button/Button";
 import MonsterCardStyled from "./MonsterCardStyled";
 
 interface MonsterCardProps {
@@ -27,6 +28,7 @@ const MonsterCard = ({
           <dt className="monster-card__title-info">♥ Relationship ♥</dt>
           <dd className="monster-card__info">{isFriend}</dd>
         </dl>
+        <Button text={"Change relationship"} />
       </div>
     </MonsterCardStyled>
   );
