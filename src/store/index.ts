@@ -1,7 +1,8 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import { monstersReducer } from "./features/monsters/monstersSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: { monstersState: monstersReducer },
 });
 
 export type AppDispatch = typeof store.dispatch;
