@@ -37,7 +37,7 @@ const MonsterCardStyled = styled.article`
       grid-gap: 5px;
       align-items: flex-start;
       justify-items: start;
-      justify-content: flex-start;
+      align-items: center;
     }
 
     &__title-info {
